@@ -57,7 +57,7 @@ if [[ "$@" == *"camp"* ]]; then
 fi
 
 # Crear el comando final de git
-final_command="git add . && git commit -m \"$last_commit_message\" $no_verify_flag && git push -u origin"
+final_command="git add . && git commit -m \"$last_commit_message\" $no_verify_flag && git push"
 
 # Mostrar y ejecutar el comando final
 echo -e "${LIGHT_BLUE}Ejecutando: $final_command${NC}"
